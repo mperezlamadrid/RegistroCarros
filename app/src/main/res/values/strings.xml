@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Carros</string>
+    <string name="crear_carro">Crear Carro</string>
+    <string name="listar_carro">Listar Carro</string>
+    <string-array name="opciones">
+        <item>@string/crear_carro</item>
+        <item>@string/listar_carro</item>
+    </string-array>
+    <string name="mazda">Mazda</string>
+    <string name="bmw">BMW</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string-array name="arr_marca">
+        <item>@string/mazda</item>
+        <item>@string/bmw</item>
+        <item>@string/chevrolet</item>
+    </string-array>
+    <string name="viejo">2000</string>
+    <string name="mediano">2009</string>
+    <string name="nuevo">2017</string>
+    <string-array name="arr_modelo">
+        <item>@string/viejo</item>
+        <item>@string/mediano</item>
+        <item>@string/nuevo</item>
+    </string-array>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="rojo">Rojo</string>
+    <string name="registro">Registrar Carro</string>
+    <string name="placa">Placa</string>
+    <string name="precio">Precio</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string-array name="arr_color">
+        <item>@string/negro</item>
+        <item>@string/blanco</item>
+        <item>@string/rojo</item>
+    </string-array>
+    <string name="mensaje_guardado">Vehiculo Guardado Exitosamente!</string>
+    <string name="marca">Marca:</string>
+    <string name="modelo">Modelo:</string>
+    <string name="color">Color:</string>
+    <string name="lPlaca">Placa:</string>
+    <string name="l_precio">Precio:</string>
 </resources>
