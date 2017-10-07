@@ -53,6 +53,18 @@ public class CrearCarros extends AppCompatActivity {
         String placa;
         int precio, marca, modelo, color;
 
+        if (tPlaca.getText().toString().isEmpty()) {
+            Toast.makeText(this, R.string.campo_vacio, Toast.LENGTH_SHORT).show();
+            tPlaca.requestFocus();
+            return;
+        }
+
+        if (tPrecio.getText().toString().isEmpty()) {
+            Toast.makeText(this, R.string.campo_vacio, Toast.LENGTH_SHORT).show();
+            tPrecio.requestFocus();
+            return;
+        }
+
         placa = tPlaca.getText().toString();
         marca = sMarca.getSelectedItemPosition();
         modelo = sModelo.getSelectedItemPosition();

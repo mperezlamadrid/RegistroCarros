@@ -23,4 +23,5 @@
     <string name="l_precio">Price:</string>
     <string name="marca">Brand:</string>
     <string name="modelo">Model:</string>
+    <string name="campo_vacio">Field should not be empty</string>
 </resources>

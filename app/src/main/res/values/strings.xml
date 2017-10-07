@@ -41,4 +41,5 @@
     <string name="color">Color:</string>
     <string name="lPlaca">Placa:</string>
     <string name="l_precio">Precio:</string>
+    <string name="campo_vacio">El campo no debe estar vacio</string>
 </resources>
